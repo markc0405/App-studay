@@ -1,0 +1,106 @@
+{
+  "uid" : "74c43f7ab0979058",
+  "name" : "Test_001.test_001_2",
+  "fullName" : "test_001.Test_001.test_001_2",
+  "historyId" : "884bec211f9fd2e0791c71960e482ca2",
+  "time" : {
+    "start" : 1590373196750,
+    "stop" : 1590373196910,
+    "duration" : 160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_001.Test_001 object at 0x000001AD9FC511C8>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    @allure.step(title=\"这是一个测试步骤02\")\n    def test_001_2(self):\n        allure.attach(\"用户名\", \"张三\")\n        allure.attach(\"密码\", \"123456\")\n        print(\"--->test_001_2\")\n>       assert False\nE       assert False\n\nscripts\\test_001.py:20: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_001.Test_001 object at 0x000001AD9FC511C8>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    @allure.step(title=\"这是一个测试步骤02\")\n    def test_001_2(self):\n        allure.attach(\"用户名\", \"张三\")\n        allure.attach(\"密码\", \"123456\")\n        print(\"--->test_001_2\")\n>       assert False\nE       assert False\n\nscripts\\test_001.py:20: AssertionError",
+    "steps" : [ {
+      "name" : "这是一个测试步骤02",
+      "time" : {
+        "start" : 1590373196750,
+        "stop" : 1590373196770,
+        "duration" : 20
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_001.Test_001 object at 0x000001AD9FC511C8>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    @allure.step(title=\"这是一个测试步骤02\")\n    def test_001_2(self):\n        allure.attach(\"用户名\", \"张三\")\n        allure.attach(\"密码\", \"123456\")\n        print(\"--->test_001_2\")\n>       assert False\nE       assert False\n\nscripts\\test_001.py:20: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee1b1c7cbd14b89f",
+        "name" : "用户名",
+        "source" : "ee1b1c7cbd14b89f.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "36733f4411ea4cca",
+        "name" : "密码",
+        "source" : "36733f4411ea4cca.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "CZL"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "1156-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001.test_001_2"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74c43f7ab0979058.json",
+  "parameterValues" : [ ]
+}

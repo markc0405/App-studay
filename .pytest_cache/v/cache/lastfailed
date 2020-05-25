@@ -1,0 +1,5 @@
+{
+  "scripts/test_001.py::Test_001": true,
+  "scripts/test_001.py::Test_001::()::test_001_2": true,
+  "scripts/test_002.py::Test_002::()": true
+}
